@@ -13602,7 +13602,7 @@ Sentiment :- 0
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
-<p>Yes, We are also,</p>
+<p>Yes, We are doing below steps too,</p>
 <ul>
 <li>replaceing non alphanumeric with " "</li>
 <li>converting all the words to lowercase </li>
@@ -14708,6 +14708,7 @@ Billable seconds: 292
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
+<p>In the XGBoost model we used BOW (Bag of words) method , which have only the frequency of words information, and in this model we are using word embeddings which actually helps to find the relationships between the words and the similarity between different sentenses. Which is better than the BOW , becuase of this we added the embedding layers before our LSTM Layers so our pytorch Network can learn better than the XGBoost model.</p>
 
 </div>
 </div>
@@ -15397,7 +15398,7 @@ Starting  neg  files
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[120]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictor</span><span class="o">.</span><span class="n">delete_endpoint</span><span class="p">()</span>
