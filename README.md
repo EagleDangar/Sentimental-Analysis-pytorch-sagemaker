@@ -10,13 +10,11 @@
 <a name="about"></a>
 ## About
 
-In this project, I have trained and deployed a ML model on AWS sagemaker. Created one API service to get the prdiction from the deployed ML model using AWS Lambda Function and then can display the predctions on a web App.  
-
-The notebook and Python files provided here, once completed, result in a simple web app which interacts with a deployed recurrent neural network performing sentiment analysis on movie reviews. This project assumes some familiarity with SageMaker, the mini-project, Sentiment Analysis using ML, should provide enough background.
+The project is to get familiar with Sagemaker functionalities and how can we deploy trained Machine learning models on Sagemaker. I have trained and deployed a recurrent neural network performing sentiment analysis on movie reviews using Pytorch on AWS sagemaker. Created one API service to get the prediction from the deployed model using AWS Lambda Function and then can display the outcomes on a web App.
 
 This project is divided in the following key sections:
 
-1. Train the Machine Learning ML model on the Sagemaker Notebook and store it.
+1. Train the LSTM model on the Sagemaker Notebook and store it as a model.
 2. Deploy the stored model on Sagemaker and create an endpoint to call the service.
 3. Create on API using AWS Lambda function and handle the prediction request coming from the web-app and get the prediction from the deployed ML model endpoint.
 
